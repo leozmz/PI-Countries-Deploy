@@ -1,0 +1,20 @@
+.button {
+    background-color: #413b05;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+h5 {
+    margin-bottom: 10px;
+}

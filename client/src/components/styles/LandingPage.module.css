@@ -1,0 +1,119 @@
+.container {
+    height: 100vh;
+}
+
+.containerMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerCountryText {
+    background-color: #7d6f09e4;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 35px;
+    margin-top: 5vh;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.containerCountryFlag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    gap: 1em;
+    padding: 25px;
+    margin-left: 10px;
+}
+
+.fodTitle {
+    background-color: #655a07;
+    color: #ffffff;
+    margin-bottom: -10px;
+    width: 55%;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+h2 {
+    background-color: #a49208e4;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #e51a1a;
+}
+
+.button {
+    background-color: #413b05;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #a49208;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    color: white;
+    gap: 0.2em;
+}
+
+.footerTxt {
+    font-size: 0.9rem;
+    margin-right: 10px;
+}
+
+@media (max-width: 550px) {
+    .containerMain {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerCountryText {
+        width: 75vw;
+        padding: 35px;
+        margin-top: 1vh;
+    }
+
+    .fodTitle {
+        width: 35vw;
+    }
+}

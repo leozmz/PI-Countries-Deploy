@@ -1,0 +1,90 @@
+.navBar {
+  background-color: #a49208bf;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+h3 {
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.searchBar {
+  margin-right: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  padding: 25px;
+  margin-top: 35px;
+}
+
+.containerButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 15px;
+  margin-left: 15px;
+  height: 50px;
+}
+
+.containerCountries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 20px;
+  min-height: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button {
+  background-color: #413b05;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+h5 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 550px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-top: 35px;
+  }
+}

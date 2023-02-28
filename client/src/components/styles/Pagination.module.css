@@ -1,0 +1,27 @@
+.pagination {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+}
+
+.button {
+  background-color: #413b05;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+@media (max-width: 550px) {
+  
+}
