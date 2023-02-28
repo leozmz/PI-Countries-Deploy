@@ -12,7 +12,7 @@ import {
     CLEAN,
 } from './types';
 
-axios.defaults.baseURL = 'http://localhost:3001';
+axios.defaults.baseURL = 'https://pi-countries-deploy-production-72e1.up.railway.app';
 
 // Con las acciones despachamos types.
 // Conexión con el servidor
